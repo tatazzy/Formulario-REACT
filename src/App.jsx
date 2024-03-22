@@ -61,14 +61,14 @@ function App() {
                 <Input id="nasc" type="date" />
               </Box>
               <Box w="100%">
-                <FormLabel htmlFor="natural">Naturalidade</FormLabel>
-                <Input id="natural" />
+                <FormLabel htmlFor="idade">Idade</FormLabel>
+                <Input id="idade" />
               </Box>
             </HStack>
             <HStack spacing="4">
               <Box w="100%">
-                <FormLabel htmlFor="cel">Celular</FormLabel>
-                <Input id="cel" type="number" />
+                <FormLabel htmlFor="endereço">Endereço</FormLabel>
+                <Input id="endereço" type="endereço" />
               </Box>
               <Box w="100%">
                 <FormLabel htmlFor="Telefone">Telefone</FormLabel>
@@ -77,12 +77,12 @@ function App() {
             </HStack>
             <HStack spacing="4">
               <Box w="100%">
-                <FormLabel htmlFor="endereço">Endereço</FormLabel>
-                <Input id="endereço" />
+                <FormLabel htmlFor="cargo">Cargo</FormLabel>
+                <Input id="cargo" />
               </Box>
               <Box w="100%">
-                <FormLabel htmlFor="cidade">Cidade</FormLabel>
-                <Input id="cidade" />
+                <FormLabel htmlFor="área">Área</FormLabel>
+                <Input id="área" />
               </Box>
             </HStack>
             <HStack spacing="4">
